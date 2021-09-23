@@ -1,9 +1,9 @@
 class Pet:
     # implement __init__( name , type , tricks ):
     def __init__(self, name, type, tricks):
-        self.name: name
-        self.type: type
-        self.tricks: tricks
+        self.name = name
+        self.type = type
+        self.tricks = tricks
         self.health = 100
         self.energy = 100
 

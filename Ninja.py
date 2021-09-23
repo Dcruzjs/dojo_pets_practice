@@ -1,11 +1,11 @@
 class Ninja:
     # implement __init__( first_name , last_name , treats , pet_food , pet )
     def __init__(self, fN="Daniel", lN="Cruz", treats="KitKar 4.4", pet_food="Apple Crackers", Pet="pet"):
-        self.first_name: fN
-        self.last_name: lN
-        self.treats: treats
-        self.pet_food: pet_food
-        self.pet: Pet
+        self.first_name = fN
+        self.last_name = lN
+        self.treats = treats
+        self.pet_food = pet_food
+        self.pet = Pet
 
     # implement the following methods:
 

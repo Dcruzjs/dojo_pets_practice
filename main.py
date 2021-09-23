@@ -1,20 +1,20 @@
 from Ninja import Ninja
-# from Dog import Dog
+from Dog import Dog
 # # from Pet import Pet
 
 
-# qwerty = Dog("Qwerty", "Dog", "Hacks Facebook Accounts", "Daniel Cruz")
+qwerty = Dog("Qwerty", "Dog", "Hacks Facebook Accounts", "Daniel Cruz")
 
-Daniel = Ninja("Daniel", "Cruz", "KitKat 4.4", "Apple Crackers")
+Daniel = Ninja("Daniel", "Cruz", "KitKat 4.4", "Apple Crackers", qwerty)
 
-# # print(Pet.name)
-# # print(qwerty.name)
-# qwerty.printInfo()
-# qwerty.noise()
-# qwerty.sleep()
+# print(Pet.name)
+print(qwerty.name)
+qwerty.printInfo()
+qwerty.noise()
+qwerty.sleep()
 
 print(Daniel.first_name)
-# Daniel.walk()
-# Daniel.printInfo()
-# Daniel.feed()
-# Daniel.bathe()
+Daniel.walk()
+Daniel.printInfo()
+Daniel.feed()
+Daniel.bathe()
